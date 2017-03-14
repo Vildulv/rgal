@@ -1,6 +1,7 @@
+require 'rubygems'
 require 'sinatra'
 require 'sinatra/reloader' if development?
 
-get '/index' do
+get '/' do
   "hello"
 end
