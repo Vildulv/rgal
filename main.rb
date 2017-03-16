@@ -3,5 +3,5 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 
 get '/' do
-  "hello ruby"
+  erb :home
 end
